@@ -3562,7 +3562,7 @@ a.box_contents:hover img {
     padding: 5px 0;
   }
 }
-
+.img-icon{padding-bottom: 12%;}
 /*-------- 2.12 Home Categories Hover effect --------*/
 .hero.cat_hover {
   background: rgba(0, 0, 0, 0.3);
