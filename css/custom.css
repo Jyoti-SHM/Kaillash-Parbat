@@ -1,3 +1,18 @@
 /*============================================================================================*/
 /* Your custom styles below */
 /*============================================================================================*/
+.pb-30{padding-bottom: 30px !important;}
+ .floating-btn-container {position: fixed;bottom: 20px;right: 20px;display: flex;flex-direction: column;gap: 10px;z-index: 1000;margin-bottom: 0 !important;}
+.floating-btn {display: flex;align-items: center;justify-content: center;width: 60px;height: 60px;background: linear-gradient(45deg, #ff5722, #e91e63);color: white;font-size: 24px;border: none;border-radius: 50%;cursor: pointer;box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);transition: all 0.3s ease-in-out;outline: none;position: relative;}
+.floating-btn:hover {transform: scale(1.1);box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);}
+.floating-btn span {position: absolute;right: 70px;background: rgba(0, 0, 0, 0.8);color: white;padding: 6px 12px;font-size: 14px;border-radius: 5px;opacity: 0;transition: 0.3s ease-in-out;white-space: nowrap;}
+.floating-btn:hover span {opacity: 1;}
+.material-icons {font-size: 28px;}
+@keyframes bounce {0% { transform: translateY(0); }25% { transform: translateY(-5px); }50% { transform: translateY(0); }75% { transform: translateY(-5px); }100% { transform: translateY(0); }}
+.floating-btn {animation: bounce 2s infinite;}
+.whatsapp-btn {background: linear-gradient(45deg, #25D366, #128C7E);}
+.email-btn {background: linear-gradient(45deg, #d44638, #ef4136);}
+.call-btn {background: linear-gradient(45deg, #4CAF50, #8BC34A);}
+.booking-btn {background: linear-gradient(45deg, #2196F3, #1E88E5);}
+#virtualTour {display: none;position: fixed;top: 0;left: 0;width: 100vw;height: 100vh;background: rgba(0, 0, 0, 0.8);z-index: 9999;}
+.close-tour {position: absolute;top: 15px;right: 20px;background: white;color: black;border: none;padding: 8px 12px;font-size: 16px;cursor: pointer;border-radius: 5px;}
