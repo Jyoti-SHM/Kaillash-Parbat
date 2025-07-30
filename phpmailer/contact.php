@@ -19,7 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     }
 
     // Compose email
-    $to = "jyotihospitalityminds@gmail.com";  // Change to your actual email address
+    $to = "sales@hotelkailashparbat.com";  // Change to your actual email address
     $subject = "New Contact Form Submission";
     $headers = "From: $firstName $lastName <$email>\r\n";
     $headers .= "Reply-To: $email\r\n";
