@@ -680,7 +680,7 @@ header nav ul li:first-child {
   }
 }
 header.fixed_header nav ul li a {
-  color: #fff;
+  color: #000;
 }
 header.fixed_header nav ul li a.animated_link:before {
   background-color: #fff;
@@ -1640,7 +1640,7 @@ img.jarallax-img.kenburns-2 {
 
 /*-------- Footer --------*/
 footer {
-  background-color: #24262d;
+  background-color: #978667;
   position: relative;
   color: #fff;
 }
@@ -1654,6 +1654,7 @@ footer .footer_bg {
   padding-top: 230px;
   z-index: 2;
   overflow: hidden;
+  background: #978667;
 }
 @media (max-width: 767px) {
   footer .footer_bg {
@@ -1708,7 +1709,7 @@ footer ul {
   margin: 0 0 25px 0;
 }
 footer a {
-  color: #ebd7b2;
+  color: #fff;
 }
 footer a:hover {
   color: #fff;
@@ -2141,8 +2142,7 @@ footer .copy {
 @media (max-width: 767px) {
   .slide-text h2,
   .slide-text h3 {
-    font-size: 42px;
-    font-size: 2.625rem;
+    font-size: 20px;
   }
 }
 .slide-text small {

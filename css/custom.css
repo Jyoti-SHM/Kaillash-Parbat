@@ -8,6 +8,8 @@
 .floating-btn span {position: absolute;right: 70px;background: rgba(0, 0, 0, 0.8);color: white;padding: 6px 12px;font-size: 14px;border-radius: 5px;opacity: 0;transition: 0.3s ease-in-out;white-space: nowrap;}
 .floating-btn:hover span {opacity: 1;}
 .material-icons {font-size: 28px;}
+.pt-6{padding-top: 6%;}
+.book-nw-btn{color: #fff !important;}
 @keyframes bounce {0% { transform: translateY(0); }25% { transform: translateY(-5px); }50% { transform: translateY(0); }75% { transform: translateY(-5px); }100% { transform: translateY(0); }}
 .floating-btn {animation: bounce 2s infinite;}
 .whatsapp-btn {background: linear-gradient(45deg, #25D366, #128C7E);}
